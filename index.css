@@ -44,14 +44,14 @@ header ul li
     list-style: none;
     margin-left: 20px;
 }
-nav_btn
+.nav_btn
 {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
 }
-nav_btn:hover
+.nav_btn:hover
 {
     background: white;
     color: black;
