@@ -22,6 +22,7 @@ header
     align-items: center;
     background-color: black;
 }
+
 header.logo
 {
     color: #fff;
@@ -32,6 +33,7 @@ header.logo
     text-transform: uppercase;
     Letter-spacing: 2px;
 }
+
 header ul
 {
     display: flex;
