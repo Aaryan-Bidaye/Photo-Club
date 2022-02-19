@@ -56,22 +56,3 @@ header ul li a:hover
     background: white;
     color: black;
 }
-
-section h1
-{
-    align-items: center;
-}
-
-section h1 a
-{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: #fff;
-    border-radius: 20px;
-}
-
-section h1 a:hover
-{
-    background: #fff;
-    color: black;
-}
