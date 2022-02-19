@@ -22,7 +22,7 @@ header
     align-items: center;
     background-color: black;
 }
-header .logo
+header.logo
 {
     color: #fff;
     font-weight: 70e;
@@ -57,7 +57,12 @@ header ul li a:hover
     color: black;
 }
 
-h1 .nav_btn
+section h1
+{
+    align-items: center;
+}
+
+section h1 a
 {
     text-decoration: none;
     padding: 6px 15px;
@@ -65,7 +70,7 @@ h1 .nav_btn
     border-radius: 20px;
 }
 
-h1 .nav_btn:hover
+section h1 a:hover
 {
     background: #fff;
     color: black;
