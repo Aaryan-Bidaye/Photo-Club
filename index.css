@@ -22,7 +22,7 @@ header
     align-items: center;
 }
 
-header.logo
+header a.name
 {
     color: #fff;
     font-weight: 70e;
