@@ -62,4 +62,9 @@ hr
 {
     color: #fff;
     padding: 20px;
+    z-index: 100;
+}
+p
+{
+    z-index: 100;
 }
