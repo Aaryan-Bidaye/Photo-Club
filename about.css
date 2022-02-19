@@ -9,6 +9,7 @@
 body
 {
     background: black;
+    scroll-behavior: smooth;
 }
 header
 {
@@ -56,4 +57,9 @@ header ul li a:hover
 {
     background: white;
     color: black;
+}
+hr
+{
+    color: #fff;
+    padding: 20px;
 }
