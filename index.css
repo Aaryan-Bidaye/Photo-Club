@@ -44,15 +44,29 @@ header ul li
     list-style: none;
     margin-left: 20px;
 }
-.nav_btn
+header ul li a
 {
     text-decoration: none;
     padding: 6px 15px;
     color: #fff;
     border-radius: 20px;
 }
-.nav_btn:hover
+header ul li a:hover
 {
     background: white;
+    color: black;
+}
+
+h1 .nav_btn
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+h1 .nav_btn:hover
+{
+    background: #fff;
     color: black;
 }
