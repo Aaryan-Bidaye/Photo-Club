@@ -199,19 +199,14 @@ footer ul li a:hover{
     position: relative;
   }
   .About{
+    display: flex;
     padding: 20px;
   }
   .About_Data{
-    position: relative;
-    float: left;
-    width: 50vw;
-    border: 20px;
+    flex: 1;
   }
-  .About_Img{
-    position: relative;
-    float: right;
-    width: 50vw;
-    border: 20px;
+  .About_Data:first-child{
+    margin-right: 20px;
   }
   .About_Text{
     text-align: center;
