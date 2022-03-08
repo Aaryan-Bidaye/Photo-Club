@@ -192,6 +192,10 @@ footer ul li a:hover{
     to {opacity: 1}
   }
   .campic{
-      width: 100vw;
+    width: 100vw;
   }
  
+  div.ContactForm {
+    position: absolute;
+    
+  }
