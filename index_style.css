@@ -51,6 +51,7 @@ p {
   color: white;  
   margin: 20px;
   margin-right: 50vw;
+  size: 12px;
 }
 h1{
     color: white;
@@ -197,5 +198,5 @@ footer ul li a:hover{
  
   div.ContactForm {
     position: absolute;
-    
+
   }
