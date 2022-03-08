@@ -202,11 +202,13 @@ footer ul li a:hover{
     padding: 20px;
   }
   .About_Data{
+    position: relative;
     float: left;
     width: 50vw;
     border: 20px;
   }
   .About_Img{
+    position: relative;
     float: right;
     width: 50vw;
     border: 20px;
