@@ -204,7 +204,12 @@ footer ul li a:hover{
   .About_Data{
     float: left;
     width: 50vw;
-    border: 2px;
+    border: 20px;
+  }
+  .About_Img{
+    float: right;
+    width: 50vw;
+    border: 20px;
   }
   .About_Text{
     text-align: center;
