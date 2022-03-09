@@ -254,3 +254,16 @@ footer ul li a:hover{
     width: 50%;
     margin: 15px auto;
   }
+  #submit{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.6s ease;
+    background-color: black;
+    display: block;
+  }
+  #submit{
+    background: white;
+    color: black;
+  }
