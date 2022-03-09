@@ -228,4 +228,6 @@ footer ul li a:hover{
     height: 300px;
     background-color: white;
     border-radius: 20px;
+    justify-content: center;
+    align-items: center;
   }
