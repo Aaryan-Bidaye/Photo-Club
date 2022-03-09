@@ -93,6 +93,7 @@ footer ul li a{
     color: white;
     border-radius: 20px;
     transition: 0.6s ease;
+    background-color: black;
 }
 footer ul li a:hover{
     background: white;
@@ -229,5 +230,23 @@ footer ul li a:hover{
     border-radius: 20px;
     text-align: center;
     padding: 20px;
-    
+
+  }
+  .button_on_white{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 20px;
+    transition: 0.6s ease;
+    background-color: black;
+  }
+  .button_on_white:hover{
+    background: white;
+    color: black;
+  }
+  input{
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+
   }
