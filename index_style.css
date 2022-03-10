@@ -261,7 +261,7 @@ footer ul li a:hover{
     border-radius: 20px;
     transition: 0.6s ease;
     background-color: black;
-    display: block;
+    display: inline-block;
   }
   #submit{
     background: white;
