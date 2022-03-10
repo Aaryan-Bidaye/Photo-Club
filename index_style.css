@@ -170,12 +170,15 @@ footer ul li a:hover{
     transition: 0.6s ease;
   }
   
-  .active, .dot:hover {
+  .active  {
     background-color: #717171;
     height: 8px;
     width: 8px;
   }
-  
+  .dot:hover{
+    height: 9px;
+    width: 9px;
+  }
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
