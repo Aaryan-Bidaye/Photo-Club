@@ -252,7 +252,7 @@ footer ul li a:hover{
   }
   textarea{
     width: 50%;
-    margin: 15px auto;
+    display: block;
   }
   #submit{
     text-decoration: none;
