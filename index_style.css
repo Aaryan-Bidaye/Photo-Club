@@ -226,6 +226,7 @@ footer ul li a:hover{
    display: flex;
    justify-content: center;
    align-items: center;
+   visibility: hidden;
   }
 
   .ContactForm {
