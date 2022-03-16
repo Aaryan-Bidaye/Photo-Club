@@ -273,3 +273,7 @@ footer ul li a:hover{
     background: white;
     color: black;
   }
+  .About_Pic{
+    border-radius: 20px;
+    padding: 15px;
+  }
