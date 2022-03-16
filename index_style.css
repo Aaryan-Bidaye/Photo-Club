@@ -227,7 +227,6 @@ footer ul li a:hover{
    display: flex;
    justify-content: center;
    align-items: center;
-   visibility: hidden;
   }
 
   .ContactForm {
@@ -277,3 +276,16 @@ footer ul li a:hover{
     border-radius: 20px;
     padding: 15px;
   }
+  .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+    
+  }
+  .close:hover {
+      color: #666;
+    }

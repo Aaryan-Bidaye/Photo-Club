@@ -3,6 +3,7 @@
     <head>
         <title>RHS Photo Journalism Club</title>
         <link rel="stylesheet" type="text/css" href="index_style.css">
+        <script src="index_script.js"></script>
         <link rel="icon" href="PhotoClub_Logo.png" type="image/x-icon">
     </head>
     <body>
@@ -15,38 +16,6 @@
                  <li><a href="#Contact" >Contact</a></li>
              </ul>
          </header>
-         <script>
-                var slideIndex = 1;
-                showSlides(slideIndex);
-
-                // Next/previous controls
-                function plusSlides(n) {
-                showSlides(slideIndex += n);
-                }
-
-                // Thumbnail image controls
-                function currentSlide(n) {
-                showSlides(slideIndex = n);
-                }
-
-                function showSlides(n) {
-                var i;
-                var slides = document.getElementsByClassName("mySlides");
-                var dots = document.getElementsByClassName("dot");
-                if (n > slides.length) {slideIndex = 1}
-                if (n < 1) {slideIndex = slides.length}
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";
-                }
-                for (i = 0; i < dots.length; i++) {
-                    dots[i].className = dots[i].className.replace(" active", "");
-                }
-                slides[slideIndex-1].style.display = "block";
-                dots[slideIndex-1].className += " active";
-                }
-
-                
-         </script>
         <div class="images">
             <img src="nikonCam.jpeg" class="campic">
         </div>
@@ -163,13 +132,16 @@
         <footer id="Contact">
             <center>
                 <ul>
-                    <li><a href=""><img src="">Contact</a></li>
+                    <li><a id="button"><img src="">Contact</a></li>
                 </ul>
             </center>
         </footer>
         <div class="Contact_Popup">
             <div class="ContactForm">
                 <h3>Contact Form</h3>
+                <div class="close">
+                    +
+                </div>
                 <form action="#" name="contact_form">
                     <center>
                         <input name="first_name" type="text" required placeholder="First Name"/>
