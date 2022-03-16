@@ -209,6 +209,7 @@ footer ul li a:hover{
   }
   .About_Data{
     flex: 1;
+    width: 50vw;
   }
   .About_Data:first-child{
     margin-right: 20px;
