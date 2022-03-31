@@ -3,7 +3,6 @@
     <head>
         <title>RHS Photo Journalism Club</title>
         <link rel="stylesheet" type="text/css" href="index_style.css">
-        <script src="index_script.js"></script>
         <link rel="icon" href="PhotoClub_Logo.png" type="image/x-icon">
     </head>
     <body>
@@ -16,6 +15,36 @@
                  <li><a href="#Contact" >Contact</a></li>
              </ul>
          </header>
+         <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+
+                // Next/previous controls
+                function plusSlides(n) {
+                showSlides(slideIndex += n);
+                }
+
+                // Thumbnail image controls
+                function currentSlide(n) {
+                showSlides(slideIndex = n);
+                }
+
+                function showSlides(n) {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                if (n > slides.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = slides.length}
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";
+                dots[slideIndex-1].className += " active";
+                }
+         </script>
         <div class="images">
             <img src="nikonCam.jpeg" class="campic">
         </div>
@@ -25,15 +54,22 @@
                     <h1 id="About">
                         <center>About</center>
                     </h1>
-                    <div class="SideBySide">
-                        <div class="About_Data">
-                            <p class="About_Text">
-                                We are a club from Rocklin High School wanting to introduce photography to beginners and intermediates, while contributing to the community. We strive to be open and inclusive of everyone and give them opportunities to practice and showcase their skills while bringing something to the table. We hope that you will join us on this mission to use photography to tell stories and showcase the world.
-                            </p>    
-                        </div>
-                        <div class="About_Data">
-                            <img src="IMG_0152.jpg" style="width:50vw" class="About_Pic">
-                        </div>
+                    <div class="About_Text">
+        
+                     
+                            <html>
+                              <head>
+                                <title>Text alignment</title>
+                                <style>
+                                  h1{text-align: center;}
+                                </style>
+                            </head>
+                              <body>
+                                <h1>We are a club from Rocklin High School wanting to introduce photography to beginners and intermediates, while contributing to the community. We strive to be open and inclusive of everyone and give them opportunities to practice and showcase their skills while bringing something to the table. We hope that you will join us on this mission to use photography to tell stories and showcase the world.
+                                </body>
+                              </html>
+                              
+                          
                     </div>
                 </p>
             </div>
@@ -49,13 +85,13 @@
                     <div class="mySlides fade">
                       <div class="numbertext">1 / 10</div>
                       <img src="DSC_0314-Enhanced.jpg" style="width:100%">
-                      <div class="text">Boulder Ridge, Rocklin CA</div>
+                      <div class="text">Snowy Peaks</div>
                     </div>
                   
                     <div class="mySlides fade">
                       <div class="numbertext">2 / 10</div>
                       <img src="DSC_0891-HDR.jpg" style="width:100%">
-                      <div class="text">Stary Sky Tree</div>
+                      <div class="text">The Stary Sky</div>
                     </div>
                   
                     <div class="mySlides fade">
@@ -67,44 +103,43 @@
                     <div class="mySlides fade">
                         <div class="numbertext">4 / 10</div>
                         <img src="IMG_1577.jpg" style="width:100%">
-                        <div class="text">Rainbow Stars</div>
+                        <div class="text">Brutal Mountains</div>
                     </div>
 
                     <div class="mySlides fade">
                         <div class="numbertext">5 / 10</div>
                         <img src="IMG_1918.jpg" style="width:100%">
-                        <div class="text">Rainbow Stars</div>
+                        <div class="text">Peaceful Mountains</div>
                     </div>
 
                    <div class="mySlides fade">
                         <div class="numbertext">6 / 10</div>
                         <img src="IMG_1953.jpg" style="width:100%">
-                        <div class="text">Rainbow Stars</div>
+                        <div class="text">Still Waterfall</div>
                       </div>
 
                       <div class="mySlides fade">
                         <div class="numbertext">7 / 10</div>
                         <img src="IMG_2730-4.jpg" style="width:100%">
-                        <div class="text">Rainbow Stars</div>
+                        <div class="text">Sunset in San Francisco</div>
                       </div>
 
                       <div class="mySlides fade">
                         <div class="numbertext">8 / 10</div>
                         <img src="IMG_2740.jpg" style="width:100%">
-                        <div class="text">Rainbow Stars</div>
+                        <div class="text">City of Dreams</div>
                       </div>
 
                       <div class="mySlides fade">
                         <div class="numbertext">9 / 10</div>
                         <img src="IMG_2875.jpg" style="width:100%">
-                        <div class="text">Rainbow Stars</div>
+                        <div class="text">Fligth 217</div>
                       </div>
 
                       <div class="mySlides fade">
                         <div class="numbertext">10 / 10</div>
                         <img src="IMG_2921-3.jpg" style="width:100%" height="50%">
-                        
-                        <div class="text">Rainbow Stars</div>
+                        <div class="text">Golden Tree</div>
                       </div>
                   
                     <!-- Next and previous buttons -->
@@ -114,7 +149,7 @@
                   <br>
                   
                   <!-- The dots/circles -->
-                  <div style="text-align:center; justify-content: center;">
+                  <div style="text-align:center">
                     <span class="dot" onclick="currentSlide(1)"></span>
                     <span class="dot" onclick="currentSlide(2)"></span>
                     <span class="dot" onclick="currentSlide(3)"></span>
@@ -132,7 +167,7 @@
         <footer id="Contact">
             <center>
                 <ul>
-                    <li><a id="button"><img src="">Contact</a></li>
+                    <li><a href=""><img src="">Contact</a></li>
                 </ul>
             </center>
         </footer>
@@ -152,6 +187,10 @@
                     </center>
                 </form>	
             </div>
-        </div>    
+          </form>	
+        </div>
+        <div class="bg-modal">
+          <div class="modal-content"></div>
+          </div>
     </body>
 </html>
