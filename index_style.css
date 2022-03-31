@@ -93,6 +93,7 @@ footer ul li a{
     color: white;
     border-radius: 20px;
     transition: 0.6s ease;
+    background-color: black;
 }
 footer ul li a:hover{
     background: white;
@@ -163,16 +164,21 @@ footer ul li a:hover{
     height: 10px;
     width: 10px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: white;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.6s ease;
+    transition: 0.2s ease;
   }
   
-  .active, .dot:hover {
+  .active  {
     background-color: #717171;
+    height: 8px;
+    width: 8px;
   }
-  
+  .dot:hover{
+    height: 9px;
+    width: 9px;
+  }
   /* Fading animation */
   .fade {
     -webkit-animation-name: fade;
@@ -197,12 +203,13 @@ footer ul li a:hover{
   div.ContactForm {
     position: relative;
   }
-  .Gay{
+  .SideBySide{
     display: flex;
     padding: 20px;
   }
   .About_Data{
     flex: 1;
+    width: 50vw;
   }
   .About_Data:first-child{
     margin-right: 20px;
@@ -211,20 +218,74 @@ footer ul li a:hover{
     text-align: center;
     font-size: 20px;
   }
-  .bg-modal {
+  .Contact_Popup {
    width: 100%;
    height: 100%;
    background-color: rgba(0, 0, 0, 0.7);
-   opacity: 0.7;
    position: absolute;
    top: 0;
+   display: none;
+   justify-content: center;
+   align-items: center;
   }
 
-  .modal-content {
+  .ContactForm {
     width: 500px;
     height: 300px;
     background-color: white;
-    opacity: 1;
-  
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+
   }
-  
+  .button_on_white{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.6s ease;
+    background-color: black;
+  }
+  .button_on_white:hover{
+    background: white;
+    color: black;
+  }
+  input{
+    width: 50%;
+    display: block;
+    margin: 15px auto;
+
+  }
+  textarea{
+    width: 50%;
+    display: block;
+  }
+  #submit{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: white;
+    border-radius: 20px;
+    transition: 0.6s ease;
+    background: black;
+  }
+  #submit:hover{
+    background: white;
+    color: black;
+  }
+  .About_Pic{
+    border-radius: 20px;
+    padding: 15px;
+  }
+  .close {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 42px;
+    color: #333;
+    transform: rotate(45deg);
+    cursor: pointer;
+    
+  }
+  .close:hover {
+      color: #666;
+    }
